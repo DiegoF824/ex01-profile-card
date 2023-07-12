@@ -6,29 +6,36 @@
     <title>Profile Card</title>
 
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/reset.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/CSS/style.css">
+    <link rel="stylesheet" href="src/CSS/reset.css">
+    <link rel="stylesheet" href="src/CSS/variables.css">
   </head>
   <body>
-    <section>
-        <div class="container">
-            <div class="item imagem">
-                <img src="images/image-victor.jpg" alt="foto de perfil">
-            </div>
-
-            <p class="item"><strong class="nome">Victor Crest</strong> <strong>26</strong></p>
-            <p class="item localizacao">London</p>
-
-            <div class="item info">
-                <p><strong>80K</strong> <br> Followers</p>
-                <p><strong>803K</strong> <br> Likes</p>
-                <p><strong>1.4K</strong> <br> Photos</p>
-            </div>
+    <main class="container">
+      <div class="card">
+        <div class="profile-informations">
+          <img src="src/images/image-victor.jpg" alt="profile picture">
+          <p>Victor Crest <span class="age">26</span></p>
+          <span class="city">London</span>
         </div>
-    </section>
+
+        <hr>
+        
+        <ul class="profile-numbers">
+          <li class="info">
+            <p class="counter">80K</p>
+            <span class="counter-type">Followers</span>
+          </li>
+          <li class="info">
+            <p class="counter">803K</p>
+            <span class="counter-type">Likes</span>
+          </li>
+          <li class="info">
+            <p class="counter">1.4K</p>
+            <span class="counter-type">Photos</span>
+          </li>
+        </ul>
+      </div>
+    </main>
   </body>
 </html>
