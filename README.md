@@ -13,7 +13,7 @@ A divisão entre as informações do perfil e os números foram separados inseri
 Na primeira página, os números de followers, likes e photos foram criados com a tag **_p_**. Na resolução esses números forma criados com o uso de uma lista desordenada, **_ul_**.
 
 ## CSS
-Para o css, eu crei dois arquivos: style.css e o reset.css. No reset.css, eu removi o padding e o margin padrão de todos os elementos e padronizei o padding-top e text-align de todos os elementos com a classe item. No style.css, construi toda a estilização da página e o posicionamento do profile card e seus itens com flexbox.
+Para o css, eu criei dois arquivos: style.css e o reset.css. No reset.css, eu removi o padding e o margin padrão de todos os elementos e padronizei o padding-top e text-align de todos os elementos com a classe item. No style.css, construi toda a estilização da página e o posicionamento do profile card e seus itens com flexbox.
 
 ### Resolução
 Na resolução do exercício as cores do background e de certos trexos do texto forma inseridas através do uso de variáveis, enquanto na primeira página, as cores foram inseridas diretamente nas propriedades do CSS.
